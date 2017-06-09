@@ -6,7 +6,7 @@ html, body, .capa {
 
 body {	
 	
-	background: url(../imagens/fundo.jpg) no-repeat;
+	background: url(https://raw.githubusercontent.com/julianosouzanh/julianosouzanh.github.io/master/imagens/fundo.jpg) no-repeat;
 	background-size: cover;
 	background-attachment: fixed; /*fixa fundo na tela*/
 	overflow-x: hidden;	 /*retirar barra rolagem*/	
