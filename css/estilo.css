@@ -1,0 +1,207 @@
+/*======== layout ========*/
+
+html, body, .capa {
+	height: 100%;
+}
+
+body {	
+	
+	background: url(../imagens/fundo.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed; /*fixa fundo na tela*/
+	overflow-x: hidden;	 /*retirar barra rolagem*/	
+}
+
+
+/* barra navegacao*/
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(51,51,51, 0.8);
+	border:none;
+}
+
+.botao {
+	border: 1px solid black;
+}
+.botao span {
+	background:white;	
+}
+
+.navbar-brand span {	
+	color: #fff;
+}
+.navbar-nav li a:focus {
+	background: none;
+}
+
+.navbar-nav li a {
+	color: #fff;		
+}
+
+
+.navbar-nav li a:hover {
+	color: #77ffcc;
+	background: red;	
+}
+
+
+/*imagem da capa*/
+.capa {	
+	display: table;
+	width: 100%;
+	text-align: center;	 
+}
+.capa img {
+	width: 190px;	
+	
+}
+.texto-capa {
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.capa h1 {
+	font-size:70px;
+}
+.texto-capa span.radiu{	
+	margin-top: 50px;
+	font-size: 30px;
+	border: 2px solid #fff;
+	border-radius: 50% ;
+	padding: 10px;	
+	cursor: pointer;
+	color: white;
+}
+.texto-capa span.radiu:hover{
+	color: 	#77ffcc;
+	background: rgba(255,255,255, .3);	
+}
+
+ /*conteudo*/
+#quemsou { 	 	
+ 	width: 100%; 	 	
+ 	background: white;
+ 	padding-top: 100px; 
+ 	padding-bottom: 150px;  	
+ } 
+ .centered { /*centralizar div no meio*/
+    margin: 0 auto !important;
+    float: none !important;
+}
+#quemsou h1 { 	 	
+ 		text-align: center;
+ 		font-size: 50px;     		
+ } 
+ #quemsou p { 	 	
+ 		text-align: justify;  
+ 		font-size: 20px;      		
+ } 
+
+ /*cursos*/
+#cursos {
+	width: 100%;	
+	padding-top: 100px; 
+ 	padding-bottom: 150px;  
+}
+#cursos h1 {
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+ .imagens {
+ 	background: white;
+ 	padding: 20px 10px;
+
+ }
+ .imagens img {
+ 	position: relative;
+ 	display: inline-block;
+ 	width: 100px;
+ 	height: 100px;
+ 	margin-right: 10px;
+ 	 	 }
+ .imagens span {
+ 	position: relative;
+ 	padding-top: 30px; 	
+ }
+ /*objetivos*/
+ #objetivos {
+ 	width: 100%;
+ 	background: white; 	
+ 	padding-top: 100px; 
+ 	padding-bottom: 150px; 
+
+ }
+ 
+ #objetivos h1 {
+	text-align: center;	
+	font-size: 60px;
+	margin-bottom: 30px;
+}
+
+/*contato*/
+#contato {
+	color: white;
+	text-align: center;	
+	padding-top: 100px; 
+ 	padding-bottom: 150px; 
+
+}
+#contato h1{
+	font-size: 50px;
+}
+
+
+#contato .mold {
+	background: white;
+	color: black;
+	text-align: center;
+	padding: 10px;
+	font-size:20px;
+	overflow: hidden;
+}
+#contato .mold:hover {
+	color: #77ffcc;
+}
+
+#contato .radiu2 {	
+	margin-top: 50px;
+	font-size: 30px;
+	border: 2px solid #fff;
+	border-radius: 50% ;
+	padding: 10px;	
+	cursor: pointer;
+	color: white;
+}
+
+#contato .radiu2:hover {
+	color: 	#77ffcc;
+	background: rgba(255,255,255, .3);
+} 
+
+/*media query*/
+@media screen and (max-width: 767px){
+.capa img {
+	width: 130px; 
+	margin-top: 90px;
+}
+.capa h1 {
+	font-size:30px;
+}
+.capa h2 {
+	font-size:20px;
+}
+.texto-capa span.radiu{	
+	margin-top: 10px;
+	font-size: 10px;	
+}
+#contato .radiu2 {	
+	margin-top: 50px;
+	font-size: 10px;
+	
+}
+
+}
